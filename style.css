@@ -50,6 +50,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
 }
 
 .featured-product-item {
@@ -63,10 +65,19 @@ body {
     .category-item {
         min-width: 50%;
     }
+
+    .featured-products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 @media (max-width: 800px) {
     .category-item {
         min-width: 100%;
+    }
+
+    .featured-products {
+        grid-template-columns: 1fr;
     }
 }

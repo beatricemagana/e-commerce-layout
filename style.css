@@ -91,6 +91,8 @@ a:hover {
 
 .featured-products-title {
     text-align: center;
+    font-size: 32px;
+    letter-spacing: 3px;
 }
 
 .featured-products {
@@ -119,6 +121,7 @@ a:hover {
 .featured-product-item>.title {
     font-size: 20px;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .featured-product-item>.description {
@@ -134,7 +137,7 @@ button {
     background: black;
     font-family: 'Nunito', sans-serif;
     color: white;
-    padding: 10px 15px;
+    padding: 5px 10px;
     text-transform: uppercase;
     cursor: pointer;
     font-weight: bold;
@@ -149,7 +152,6 @@ footer {
     align-items: center;
     max-width: 1200px;
     margin: 20px auto;
-    border: 2px solid red;
     height: 40px;
 }
 

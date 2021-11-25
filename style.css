@@ -13,7 +13,6 @@ nav {
     align-items: center;
     max-width: 1200px;
     margin: 20px auto;
-
     background-color: rgb(164, 235, 164);
 }
 
@@ -38,6 +37,12 @@ nav {
 
 .nav-links li {
     list-style: none;
+}
+
+.shopping-cart a img {
+   display: flex;
+   width: 30px;
+   height: 30px;
 }
 
 .categories {
@@ -129,6 +134,15 @@ button {
     margin: 10px 0;
 }
 
+footer {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    border: 2px solid red;
+    height: 40px;
+}
 
 
 @media (max-width: 1000px) {

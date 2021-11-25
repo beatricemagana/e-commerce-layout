@@ -9,7 +9,6 @@ body {
 .categories {
     max-width: 1200px;
     margin: 40px auto;
-    height: 40px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -40,6 +39,13 @@ body {
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.featured-products-title {
+    
+}
+.featured-products {
+    margin-top: 20px;
 }
 
 
